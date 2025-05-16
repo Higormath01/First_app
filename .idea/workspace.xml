@@ -5,9 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="467fe30b-6eed-4e28-80c1-b869d6c87c8f" name="Changes" comment="a">
-      <change afterPath="$PROJECT_DIR$/exercicios/livroslistview.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listview e banco/listviewbanco.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listview e banco/livroslistview.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listview e banco/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Listview.py" beforeDir="false" afterPath="$PROJECT_DIR$/Listview.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aponsentadoria.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aposentadoria/Aponsentadoria.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aposentadoria2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aposentadoria/Aposentadoria2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Listview.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercicios/Listview.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicios/livroslistview.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mains/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mains/main2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mains/main3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mains/main4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mains/main5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main7.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mains/main7.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +83,7 @@
     "Python.Listview.executor": "Run",
     "Python.lista.executor": "Run",
     "Python.listview.executor": "Run",
+    "Python.listviewbanco.executor": "Run",
     "Python.livroslistview.executor": "Run",
     "Python.main.executor": "Run",
     "Python.main2.executor": "Run",
@@ -80,6 +92,7 @@
     "Python.main5.executor": "Run",
     "Python.main6.executor": "Run",
     "Python.main7.executor": "Run",
+    "Python.models.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -98,6 +111,10 @@
       <recent name="C:\Users\senai_24_25\PycharmProjects\first_app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\senai_24_25\PycharmProjects\first_app\listview e banco" />
+      <recent name="C:\Users\senai_24_25\PycharmProjects\first_app\Mains" />
+      <recent name="C:\Users\senai_24_25\PycharmProjects\first_app\exercicios" />
+      <recent name="C:\Users\senai_24_25\PycharmProjects\first_app\Aposentadoria" />
       <recent name="C:\Users\senai_24_25\PycharmProjects\first_app" />
     </key>
   </component>
@@ -142,7 +159,10 @@
       <workItem from="1746813900364" duration="779000" />
       <workItem from="1746814981817" duration="1978000" />
       <workItem from="1747305007238" duration="268000" />
-      <workItem from="1747390690530" duration="5265000" />
+      <workItem from="1747390690530" duration="6355000" />
+      <workItem from="1747398495049" duration="15000" />
+      <workItem from="1747398617018" duration="28000" />
+      <workItem from="1747398688254" duration="5553000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <option name="closed" value="true" />
@@ -168,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746816955564</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="a">
+      <option name="closed" value="true" />
+      <created>1747397392783</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1747397392783</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,11 +209,12 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/first_app$main7.coverage" NAME="main7 Coverage Results" MODIFIED="1746790000459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/First_app$models.coverage" NAME="models Coverage Results" MODIFIED="1747408670721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/listview e banco" />
     <SUITE FILE_PATH="coverage/First_app$main5.coverage" NAME="main5 Coverage Results" MODIFIED="1745520040553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/First_app$main3.coverage" NAME="main3 Coverage Results" MODIFIED="1744899664309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/First_app$lista.coverage" NAME="lista Coverage Results" MODIFIED="1746791193190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercicios" />
     <SUITE FILE_PATH="coverage/first_app$main6.coverage" NAME="main6 Coverage Results" MODIFIED="1746790281965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/First_app$livroslistview.coverage" NAME="livroslistview Coverage Results" MODIFIED="1747397219815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercicios" />
+    <SUITE FILE_PATH="coverage/First_app$livroslistview.coverage" NAME="livroslistview Coverage Results" MODIFIED="1747408954860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/listview e banco" />
     <SUITE FILE_PATH="coverage/First_app$Aponsentadoria.coverage" NAME="Aponsentadoria Coverage Results" MODIFIED="1746807772628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/First_app$main4.coverage" NAME="main4 Coverage Results" MODIFIED="1743177907905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/First_app$main.coverage" NAME="main Coverage Results" MODIFIED="1744899682144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -194,6 +223,7 @@
     <SUITE FILE_PATH="coverage/first_app$Listview.coverage" NAME="Listview Coverage Results" MODIFIED="1746790882314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/First_app$Listview.coverage" NAME="Listview Coverage Results" MODIFIED="1747396532693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/first_app$listview.coverage" NAME="listview Coverage Results" MODIFIED="1746790259917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/First_app$listviewbanco.coverage" NAME="listviewbanco Coverage Results" MODIFIED="1747400740382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/listview e banco" />
     <SUITE FILE_PATH="coverage/First_app$main6.coverage" NAME="main6 Coverage Results" MODIFIED="1745518293470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/First_app$main2.coverage" NAME="main2 Coverage Results" MODIFIED="1743177867259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

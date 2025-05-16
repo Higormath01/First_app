@@ -67,7 +67,7 @@ def main(page: ft.Page):
                 ),
                 controls=[
                     ft.Container(
-                        content=ft.Image(src="img.png", width=150, height=150),
+                        content=ft.Image(src="../img.png", width=150, height=150),
                         alignment=alignment.center
                     ),
                     Row([
@@ -253,7 +253,7 @@ def main(page: ft.Page):
                 controls=[
                     ft.Container(
                         width=page.window.width,
-                        content=ft.Image(src="img.png", width=150, height=150),
+                        content=ft.Image(src="../img.png", width=150, height=150),
                         alignment=alignment.center,
                     ),
                     Column(

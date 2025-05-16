@@ -55,7 +55,7 @@ def main(page: ft.Page):
                 bgcolor="WHITE",
                 controls=[
                     ft.Container(
-                        content=ft.Image(src="img.png", width=150, height=150),
+                        content=ft.Image(src="../img.png", width=150, height=150),
                         alignment=alignment.center
 
                     ),
@@ -202,7 +202,7 @@ def main(page: ft.Page):
                     Column(
                         controls=[
                             ft.Container(
-                                content=ft.Image(src="img.png", width=150, height=150),
+                                content=ft.Image(src="../img.png", width=150, height=150),
 
                             ),
                             texto3(
@@ -246,7 +246,7 @@ def main(page: ft.Page):
 
                 controls=[
                     ft.Container(
-                        content=ft.Image(src="img.png", width=150, height=150),
+                        content=ft.Image(src="../img.png", width=150, height=150),
                         alignment=alignment.center
                     ),
                     Column(
